@@ -1,9 +1,8 @@
+account_id = "049ff5e84ecf636b53b162cbb580aae6"
 name = "cheflog-ai"
-main = "src/index.ts"
-compatibility_date = "2024-12-01"
+main = "src/worker.ts"
+compatibility_date = "2024-01-01"
 
-[vars]
-DEEPSEEK_API_KEY = ""
-
-[site]
-bucket = "./public"
+[[kv_namespaces]]
+binding = "STATE"
+id = "b528faa12ec74bfdb36b2ac50120e0dd"
